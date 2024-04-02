@@ -40,11 +40,11 @@ bot = Client(
 
 bot_token=Config.BOT_TOKEN
 bot1 = telegram.Bot(token=bot_token)
-channel = f'@HxBots'
-owner = f'@Kirodewal'
-pdf = f'@TxT_DLBot.pdf'
-video = f'@TxT_DLBot.mp4'
-mkv = f'@TxT_DLBot.mkv'
+channel = f'@Bhuriyabhai2'
+owner = f'@Bhuriyabhai2'
+pdf = f'@@BHURIYAA_BOT.pdf'
+video = f'@BHURIYAA_BOT.mp4'
+mkv = f'@BHURIYAA_BOT.mkv'
 
 @bot.on_message(filters.command(["help"]))
 async def help_handler(bot: Client, m: Message):
