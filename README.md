@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/9f6c0231a552ff16c3407.jpg" alt="logo" target="logo">
+<img src="https://telegra.ph/file/92a26585c37a4530112c0.jpg" alt="logo" target="logo">
 
 <h1 align="center">
  <b><a href="https://t.me/Txt_DLBot" target="/blank">TxT-DLBot</a></>
@@ -22,7 +22,7 @@
 
 ### Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/bhuriya12/TxT-DL-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/bhuriya12/txt-dl-bot-1">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
