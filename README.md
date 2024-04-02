@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/92a26585c37a4530112c0.jpg" alt="logo" target="logo">
 
 <h1 align="center">
- <b><a href="https://t.me/BHURIYAA_BOT" target="/blank">TxT-DLBot</a></>
+ <b><a href="https://t.me/BHURIYAA_BOT" target="/blank">BHURIYA-BOT</a></>
 </h1>
 
 ### 🔥 ALL VARIABLES
