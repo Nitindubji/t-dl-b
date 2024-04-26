@@ -38,13 +38,6 @@ bot = Client(
     api_hash=Config.API_HASH,
     workers= 6)
 
-bot_token=Config.BOT_TOKEN
-bot1 = telegram.Bot(token=bot_token)
-channel = f'@Bhuriyabhai2'
-owner = f'@Bhuriyabhai2'
-pdf = f'@@BHURIYAA_BOT.pdf'
-video = f'@BHURIYAA_BOT.mp4'
-mkv = f'@BHURIYAA_BOT.mkv'
 
 @bot.on_message(filters.command(["help"]))
 async def help_handler(bot: Client, m: Message):
@@ -352,7 +345,7 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading » {str(count).zfill(3)}-{name}\n\n")
                         time.sleep(1)
                         start_time = time.time()
-                        await m.reply_document(ka, caption=f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} {pdf}\n')
+                        await m.reply_document(ka, caption=f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1}\n')
                         count+=1
                         # time.sleep(1)
                         await reply.delete (True)
@@ -418,7 +411,7 @@ async def account_login(bot: Client, m: Message):
     input0: Message = await bot.listen(editable.chat.id)
     raw_text0 = input0.text
     
-    await m.reply_text("**Enter Resolution \nExamples: __480 = SD Quality\n             720 = HD Quality\n             1080 = FHD Quality__**")
+    await m.reply_text("**Enter Resolution**")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
 
